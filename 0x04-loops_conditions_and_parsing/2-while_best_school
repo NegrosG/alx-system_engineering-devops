@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#this script display Best School 10 time using while loop
+
+num=0
+
+while [ $num -lt $10 ]
+do
+	echo "Best School"
+done
