@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#A script that displays Best school 10 times but displays Best school and HI on 9th line
+
+num=0
+
+while [ $num -lt 10 ]
+do
+	if [ $num -eq 9 ]
+	then
+		echo "Hi"
+	fi
+	echo "Best School"
+	(( num++ ))
+done
