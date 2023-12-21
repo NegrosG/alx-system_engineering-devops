@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#A script display bad luck on 4th iteration and good luck on 8th iteration and Best school every other iteration
+
+num=0
+
+while [ $num -lt 10 ]
+do
+	if [ $num -eq 3 ]
+	then
+		echo "bad luck"
+	elif [ $num -eq 7 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	(( num++ ))
+done
