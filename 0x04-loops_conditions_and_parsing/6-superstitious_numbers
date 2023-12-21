@@ -7,9 +7,15 @@ while [ $num -le 20 ]
 do
 	echo "$num"
 	case $num in
-		"4") echo "bad luck from china";;
-		"9") echo "bad luck from japan";;
-		"17") echo "bad luck from italy";;
+		4)
+			echo "bad luck from china"
+			;;
+		9)
+			echo "bad luck from japan"
+			;;
+		17)
+			echo "bad luck from italy"
+			;;
 	esac
 	(( num++ ))
 done
