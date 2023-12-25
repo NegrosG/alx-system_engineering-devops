@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#This script displays lines containing bash word, that can get the pid of bash process
+#cannot use pgrep
+#spellcheck disable
+
+./1-list_your_processes | grep "bash"
