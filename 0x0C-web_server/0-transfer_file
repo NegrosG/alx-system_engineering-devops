@@ -1,4 +1,4 @@
-!/usr/bin/env bash
+#!/usr/bin/env bash
 # This transfers a file from a client to a server
 
 # Check if the number of parameters is less than 4
